@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <>
+    <div>
       <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://images.pexels.com/photos/3779713/pexels-photo-3779713.jpeg?auto=compress&cs=tinysrgb&w=800")]'>
         <div className="bg-gradient-to-tr w-full h-[748px]  from-pink-400 to-transparent flex items-center">
           <div className="max-w-xl pl-60">
@@ -29,9 +29,15 @@ const Home = () => {
               <Link to="https://calendly.com/phiiphiblankson/book-a-schedule-with-us">
                 <Button className="rounded-full">Book a Schedle</Button>
               </Link>
-              <Button className="rounded-full" variant="outlined" color="white">
-                Contact Us
-              </Button>
+              <Link to="Contact Us">
+                <Button
+                  className="rounded-full"
+                  variant="outlined"
+                  color="white"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -224,7 +230,7 @@ const Home = () => {
           </Carousel>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

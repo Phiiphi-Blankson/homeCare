@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import Nav from './components/Nav';
 import {
   createBrowserRouter,
@@ -15,6 +14,7 @@ import Bonding from './pages/Bonding';
 import Whitening from './pages/Whitening';
 import Crowns from './pages/Crowns';
 import Retirement from './components/Retirement';
+import Contacts from './components/Contacts';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -26,6 +26,7 @@ const App = () => {
         <Route path="whitening" element={<Whitening />} />
         <Route path="crown" element={<Crowns />} />
         <Route path="retirement" element={<Retirement />} />
+        <Route path="contacts" element={<Contacts />} />
       </Route>
     )
   );

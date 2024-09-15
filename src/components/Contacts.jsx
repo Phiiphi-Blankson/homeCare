@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const Form = () => {
+const Contacts = () => {
   const FormComponent = () => {
     // State to store form data
     const [formData, setFormData] = useState({

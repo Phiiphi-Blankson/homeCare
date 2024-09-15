@@ -59,6 +59,11 @@ const navListMenuItems = [
     description: 'Crown',
     icon: GiQueenCrown,
   },
+  {
+    link: '/contact',
+    description: 'Contact Us',
+    icon: GiQueenCrown,
+  },
 ];
 
 function NavListMenu() {
@@ -157,7 +162,7 @@ function NavList() {
         className="font-medium"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4">
-          Contact Us
+          <Link to="/contacts">Contact Us</Link>
         </ListItem>
       </Typography>
       <Typography
