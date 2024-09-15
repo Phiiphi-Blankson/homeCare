@@ -26,7 +26,7 @@ const App = () => {
         <Route path="whitening" element={<Whitening />} />
         <Route path="crown" element={<Crowns />} />
         <Route path="retirement" element={<Retirement />} />
-        <Route path="contacts" element={<Contacts />} />
+        <Route path="/Contacts" element={<Contacts />} />
       </Route>
     )
   );

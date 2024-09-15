@@ -30,6 +30,7 @@ import {
   TagIcon,
   UserGroupIcon,
 } from '@heroicons/react/24/solid';
+import Contacts from './Contacts';
 import { TbDental } from 'react-icons/tb';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import { GiScrew } from 'react-icons/gi';
