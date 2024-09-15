@@ -7,6 +7,7 @@ import { GiTooth } from 'react-icons/gi';
 import { GiSaberTooth } from 'react-icons/gi';
 import { GiQueenCrown } from 'react-icons/gi';
 import { TbAtom } from 'react-icons/tb';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,7 +26,9 @@ const Home = () => {
               confidence one tooth at a time.
             </p>
             <div className=" mt-5 space-x-5">
-              <Button className="rounded-full">Book a Schedle</Button>
+              <Link to="https://calendly.com/phiiphiblankson/book-a-schedule-with-us">
+                <Button className="rounded-full">Book a Schedle</Button>
+              </Link>
               <Button className="rounded-full" variant="outlined" color="white">
                 Contact Us
               </Button>

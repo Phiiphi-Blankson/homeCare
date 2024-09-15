@@ -14,6 +14,7 @@ import Implants from './pages/Implants';
 import Bonding from './pages/Bonding';
 import Whitening from './pages/Whitening';
 import Crowns from './pages/Crowns';
+import Retirement from './components/Retirement';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="bonding" element={<Bonding />} />
         <Route path="whitening" element={<Whitening />} />
         <Route path="crown" element={<Crowns />} />
+        <Route path="retirement" element={<Retirement />} />
       </Route>
     )
   );
