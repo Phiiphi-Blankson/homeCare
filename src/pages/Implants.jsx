@@ -11,7 +11,7 @@ import { TbAtom } from 'react-icons/tb';
 const Implants = () => {
   return (
     <>
-      <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://media.istockphoto.com/id/1088392714/photo/elderly-woman-enjoying-her-smile-in-the-dental-office.jpg?s=1024x1024&w=is&k=20&c=Un1FGHrekxFQBfAd8rNQnu8z_cd_ej_nKlMrqd9rLFM=")]'>
+      <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://images.pexels.com/photos/3845983/pexels-photo-3845983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]'>
         <div className="bg-gradient-to-tr w-full h-[748px]  from-blue-400 to-transparent flex items-center">
           <div className="max-w-xl pl-60">
             <h1 className="text-5xl">Need to know more about Implants?</h1>

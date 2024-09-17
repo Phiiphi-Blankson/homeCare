@@ -45,11 +45,18 @@ const Retirement = () => {
   });
   const handleBtn = () => {};
   return (
-    <div className="flex flex-col items-center justify-center min-h-96 mb-10">
+    <div className="flex flex-col items-center justify-center min-h-96 mb-10 bg-[url('https://images.pexels.com/photos/1125272/pexels-photo-1125272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]">
       <h3 className="text-6xl">Search for Retirement Homes</h3>
       <div className="max-w-96 flex gap-4 mt-10">
-        <Input label="search" placeholder="search" onChange={handleSearch} />
-        <Button onClick={handleBtn}>search</Button>
+        <Input
+          label="search"
+          placeholder="search"
+          onChange={handleSearch}
+          className="border-white text-white"
+        />
+        <Button onClick={handleBtn} className="text-white">
+          search
+        </Button>
       </div>
       <div className="flex gap-4 flex-wrap mt-10">
         {filteredHomes.map((home) => (

@@ -16,10 +16,6 @@ const LINKS = [
     title: 'Resource',
     items: ['Blog', 'Newsletter', 'Events', 'Help center'],
   },
-  {
-    title: 'Resource',
-    items: ['Blog', 'Newsletter', 'Events', 'Help center'],
-  },
 ];
 
 const currentYear = new Date().getFullYear();

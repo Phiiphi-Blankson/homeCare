@@ -10,7 +10,7 @@ import { TbAtom } from 'react-icons/tb';
 const Crowns = () => {
   return (
     <>
-      <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://media.istockphoto.com/id/1173389403/photo/portrait-of-laughing-senior-couple.jpg?s=1024x1024&w=is&k=20&c=sD8Dx-aU1RZpfOrBL4aCMZ2i9qyaL9U0LySfDVn_mMc=")]'>
+      <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://images.pexels.com/photos/3831156/pexels-photo-3831156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]'>
         <div className="bg-gradient-to-tr w-full h-[748px]  from-red-400 to-transparent flex items-center">
           <div className="max-w-xl pl-60">
             <h1 className="text-5xl">

@@ -29,7 +29,7 @@ const Home = () => {
               <Link to="https://calendly.com/phiiphiblankson/book-a-schedule-with-us">
                 <Button className="rounded-full">Book a Schedle</Button>
               </Link>
-              <Link to="Contact Us">
+              <Link to="/contacts">
                 <Button
                   className="rounded-full"
                   variant="outlined"
@@ -152,8 +152,12 @@ const Home = () => {
             </div>
             <h4 className="text-xl font-bold mt-3">Dental Implants</h4>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              doloremque odio, nsbhj smnwb xnbnbn dcnnm
+              Dental implants are a permanent solution for missing teeth. A
+              titanium post is surgically implanted into the jawbone, which then
+              fuses with the bone over time. A custom-made crown is attached to
+              the post, creating a natural-looking and feeling tooth. Implants
+              can last a lifetime with proper care and are ideal for those who
+              want a long-term solution for tooth loss.
             </p>
           </div>
           <div className="bg-pink-300 p-5 rounded-2xl max-w-xs shadow text-center">
@@ -162,8 +166,12 @@ const Home = () => {
             </div>
             <h4 className="text-xl font-bold mt-3">Bonding</h4>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              doloremque odio, nsbhj smnwb xnbnbn dcnnm
+              Dental bonding is a quick and affordable procedure that involves
+              applying a tooth-colored resin to repair chipped, cracked, or
+              discolored teeth. The resin is molded and shaped to match the
+              surrounding teeth, then hardened with a special light. Bonding is
+              a great option for minor cosmetic issues, but may not be suitable
+              for more extensive repairs.
             </p>
           </div>
           <div className="bg-pink-300 p-5 rounded-2xl max-w-xs shadow text-center">
@@ -172,8 +180,12 @@ const Home = () => {
             </div>
             <h4 className="text-xl font-bold mt-3">Whitening</h4>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              doloremque odio, nsbhj smnwb xnbnbn dcnnm
+              Teeth whitening is a non-invasive, pain-free procedure that can
+              brighten your smile by up to 10 shades. Using a gentle bleaching
+              agent, whitening treatments can remove stains and discoloration,
+              leaving your teeth looking radiant and healthy. In-office
+              whitening treatments typically take around an hour, while at-home
+              whitening kits can be used over a period of weeks
             </p>
           </div>
           <div className="bg-pink-300 p-5 rounded-2xl max-w-xs shadow text-center">
@@ -182,8 +194,11 @@ const Home = () => {
             </div>
             <h4 className="text-xl font-bold mt-3">Crowns</h4>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              doloremque odio, nsbhj smnwb xnbnbn dcnnm
+              Dental crowns are custom-made caps that cover the entire tooth,
+              restoring its shape, size, and color. Crowns can be used to repair
+              teeth that are damaged, decayed, or discolored. Made from
+              porcelain, ceramic, or gold, crowns are durable and long-lasting,
+              with a lifespan of up to 15 years.
             </p>
           </div>
         </div>
@@ -207,7 +222,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-2xl font-bold mt-2">Dental Implants</p>
-              <p className="mt-2 ">Dental Implats Specialist</p>
+              <p className="mt-2 ">Dental Implant Specialist</p>
             </div>
             <div className="border border-black p-4 rounded-xl">
               <img
@@ -216,7 +231,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-2xl font-bold mt-2">Dental Implants</p>
-              <p className="mt-2 ">Dental Implats Specialist</p>
+              <p className="mt-2 ">Dental Implant Specialist</p>
             </div>
             <div className="border border-black p-4 rounded-xl">
               <img
@@ -225,7 +240,7 @@ const Home = () => {
                 alt=""
               />
               <p className="text-2xl font-bold mt-2">Dental Implants</p>
-              <p className="mt-2 ">Dental Implats Specialist</p>
+              <p className="mt-2 ">Dental Implant Specialist</p>
             </div>
           </Carousel>
         </div>
