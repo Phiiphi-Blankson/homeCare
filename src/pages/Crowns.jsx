@@ -1,11 +1,5 @@
 /** @format */
 import { Button, Carousel } from '@material-tailwind/react';
-import { FaTooth } from 'react-icons/fa';
-import { GiScrew } from 'react-icons/gi';
-import { GiTooth } from 'react-icons/gi';
-import { GiSaberTooth } from 'react-icons/gi';
-import { GiQueenCrown } from 'react-icons/gi';
-import { TbAtom } from 'react-icons/tb';
 
 const Crowns = () => {
   return (

@@ -47,7 +47,7 @@ const Home = () => {
           <h3 className="text-5xl font-extrabold max-w-2xl">
             You can get the highest quality services here
           </h3>
-          <p className="text-gray-600 max-w-xs">
+          <p className="text-gray-600 max-w-xs text-2xl">
             We can only best quality material on the market in order to probvide
             the best products to our patients
           </p>

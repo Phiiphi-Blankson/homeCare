@@ -1,18 +1,12 @@
 /** @format */
 
 import { Button, Carousel } from '@material-tailwind/react';
-import { FaTooth } from 'react-icons/fa';
-import { GiScrew } from 'react-icons/gi';
-import { GiTooth } from 'react-icons/gi';
-import { GiSaberTooth } from 'react-icons/gi';
-import { GiQueenCrown } from 'react-icons/gi';
-import { TbAtom } from 'react-icons/tb';
 
 const Implants = () => {
   return (
     <>
       <section className='min-h-[calc(100vh-70px-40px)] bg-no-repeat bg-cover object-cover bg-[url("https://images.pexels.com/photos/3845983/pexels-photo-3845983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]'>
-        <div className="bg-gradient-to-tr w-full h-[748px]  from-blue-400 to-transparent flex items-center">
+        <div className="bg-gradient-to-tr w-full h-[748px]  from-blue-gray-700 to-transparent flex items-center">
           <div className="max-w-xl pl-60">
             <h1 className="text-5xl">Need to know more about Implants?</h1>
             <p>
@@ -31,7 +25,7 @@ const Implants = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col space-y-20 justify-center items-center min-h-[80vh] py-10 bg-blue-gray-50">
+      <section className="flex flex-col space-y-20 justify-center items-center min-h-[80vh] py-10 bg-blue-gray-200">
         <div className="flex items-center">
           <h3 className="text-5xl font-extrabold max-w-2xl">
             Benefits of Dental Implants
@@ -92,7 +86,7 @@ const Implants = () => {
         </div>
       </section>
 
-      <h3>The Dental Implant Procedure</h3>
+      <h3 className="text-5xl p-8">The Dental Implant Procedure</h3>
 
       <section className="flex justify-center space-x-20 items-center min-h-[80vh]">
         <div className="">

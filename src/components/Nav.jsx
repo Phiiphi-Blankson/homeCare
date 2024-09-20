@@ -59,11 +59,6 @@ const navListMenuItems = [
     description: 'Crown',
     icon: GiQueenCrown,
   },
-  {
-    link: '/contact',
-    description: 'Contact Us',
-    icon: GiQueenCrown,
-  },
 ];
 
 function NavListMenu() {

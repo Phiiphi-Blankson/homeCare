@@ -22,7 +22,7 @@ function Contact() {
     setMessage('');
   };
   return (
-    <div className='flex justify-center p-20 bg-[url("https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]'>
+    <div className='flex justify-center p-20 pb-10 mb-24  bg-[url("https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")]'>
       <Card color="transparent" shadow={false}>
         <Typography variant="h4" color="white">
           Contact Us
@@ -41,7 +41,7 @@ function Contact() {
             </Typography>
             <Input
               size="lg"
-              placeholder="name@mail.com"
+              placeholder="Fiifi Brown"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: 'before:content-none after:content-none',
